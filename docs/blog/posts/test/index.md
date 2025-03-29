@@ -12,6 +12,7 @@ authors:
 links:
     - Google: https://google.com
     - PiKVM: https://pikvm.org
+comments: true
 ---
 
 # Test Post

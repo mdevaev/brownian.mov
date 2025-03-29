@@ -1,6 +1,7 @@
 # https://squidfunk.github.io/mkdocs-material/getting-started
 # https://squidfunk.github.io/mkdocs-material/reference/admonitions
 # https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
+# https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/
 
 
 site_name: Brownian Movement
@@ -33,6 +34,7 @@ theme:
         - search.highlight
         - search.share
         - search.suggest
+    custom_dir: overrides
 
 extra_css:
     - _assets/user.css
