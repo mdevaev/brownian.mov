@@ -40,6 +40,10 @@ theme:
 extra_css:
     - _assets/user.css
 
+extra_javascript:
+  - _assets/add_paragraphs.js
+  - _assets/scroll_to_summary.js
+
 markdown_extensions:
     - admonition
     - def_list
@@ -49,6 +53,8 @@ markdown_extensions:
     - pymdownx.details
     - pymdownx.superfences
     - pymdownx.magiclink
+    - pymdownx.tabbed:
+        alternate_style: true
     - pymdownx.blocks.caption
     - toc:
         permalink: true
